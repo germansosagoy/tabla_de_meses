@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 1500ms;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+table, th, td {
+    font-family: 'Roboto Mono', monospace;
+    border: 2px solid rgb(226, 226, 226);
+    transition: 1000ms;
+    text-align: center;
+}
+th {
+    background-color: #ffa641a2;
+}
+tr {
+    opacity: 0%;
+    transition: opacity 500ms;
+    background-color: 500ms;
+    color: 500ms;
+}
+.botonera {
+    margin-top: 25px;
+}
