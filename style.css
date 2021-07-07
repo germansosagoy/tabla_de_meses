@@ -4,26 +4,77 @@ body {
     align-items: center;
     flex-direction: column;
     transition: background-color 1500ms;
+    background-color: #fcfcfc;
 }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
 table {
-    width: 50%;
+    width: 60%;
     border-collapse: collapse;
 }
+
 table, th, td {
-    font-family: 'Roboto Mono', monospace;
-    border: 2px solid rgb(226, 226, 226);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 3px solid rgb(226, 226, 226);
     transition: 1000ms;
     text-align: center;
 }
+
 th {
-    background-color: #ffa641a2;
+    background-color: #17caacaf;
 }
+
 tr {
     opacity: 0%;
-    transition: opacity 500ms;
-    background-color: 500ms;
-    color: 500ms;
+    transition: opacity 600ms;
+    background-color: 600ms;
+    color: 600ms;
 }
+
 .botonera {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
     margin-top: 40px;
+}
+
+#btn-nocturno {
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    border: 2px solid #3867ac; /* Nocturno */
+    transition-duration: 0.5s;
+}
+#btn-nocturno:hover {
+    background-color: #224e91;   /* Diurno */
+    color: white;
+}
+
+#btn-diurno {
+    margin: 10px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    border: 2px solid #56a7c2; /* Nocturno */
+    transition-duration: 0.5s;
+}
+#btn-diurno:hover {
+    background-color: #6db3ec;   /* Diurno */
+    color: white;
 }
